@@ -45,7 +45,6 @@ header    {
   margin: 0 auto;
   max-width: 600px;
   top: 38px;
-  border: 2px dashed #445;
 }
 
 .ribbon-inner   {
@@ -77,4 +76,20 @@ header h2   {
   padding-bottom: 14px;
   margin-top: -3px;
   text-align: center;
+}
+
+header span.left-tail, header span.right-tail {
+    position: relative;
+    display: block;
+    width: 56px;
+    height: 105px;
+    background: transparent url(../images/ribbon-tail-sprite.png) 0 0 no-repeat;
+    position: absolute;
+    bottom: -37px;
+    z-index: 5;
+}
+
+header span.left-tail {
+    background-position: 0 0;
+    left: -31px;
 }
