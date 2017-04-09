@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to the DO.II chat app test page. 
 
 You can use the [editor on GitHub](https://github.com/DOII-IT/merlaut/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
