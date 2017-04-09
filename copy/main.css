@@ -83,10 +83,10 @@ header span.left-tail, header span.right-tail {
     display: block;
     width: 56px;
     height: 105px;
-    background: transparent url(../images/ribbon-tail-sprite.png) 0 0 no-repeat;
+    background: transparent url(\ribbon-tail-sprite.png) 0 0 no-repeat;
     position: absolute;
     bottom: -37px;
-    z-index: 5;
+    z-index: 0;
 }
 
 header span.left-tail {
