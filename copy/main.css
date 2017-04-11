@@ -16,6 +16,7 @@
   border: 0;
   font-size: 100%; font: inherit;
   vertical-align: baseline;
+  text-decoration: none;
 }
 
 html  {
@@ -34,8 +35,13 @@ div.shell   {
   display: block;
   min-width: 640px; max-width: 45%;
   min-height: 670px;
-  border: 2px solid #544;
+  /* border: 2px solid #544; */
   margin: 30px auto;
+}
+
+div.shell img   {
+  display: block;
+  margin: 5px auto;
 }
 
 header      {
@@ -116,11 +122,100 @@ div#downhill span.inner   {
   background: transparent url(./images/download-sprite.png) 0 0 no-repeat;
 }
 
-span.fixer    {
-    background: transparent url(../images/download-fallback-bg.png) center top no-repeat;
+/* span.fixer    {
+    background: transparent url(./images/download-fallback-bg.png) center top no-repeat;
     display: block;
     height: 19px;
     position: absolute;
     width: 670px;
     top: 19px;
+} */
+
+section#main    {
+  display: block;
+  position: relative;
+  z-index: 2;
+  padding: 20px 82px 0;
+  min-height: 200px;
+}
+
+section#main h2 {
+  font-family: 'Open Sans', 'Century Gothic', 'Apple Gothic', sans-serif;
+  font-weight: bold;
+  font-size: 1.85em;
+  border-bottom: .2em double #d3ccc1;
+  color: #7c334f;
+  font-style: italic;
+  margin: 1.1em 0 .38em;
+  line-height: 1.2;
+  padding-bottom: 10px;
+}
+
+footer    {
+  display: block;
+  position: relative;
+  background: transparent url(./images/footer-ramp.jpg) center -1px no-repeat;
+  padding-top: 104px;
+  margin: -94px auto 40px;
+  max-width: 560px;
+  text-align: center;
+}
+
+footer span.ribbon-outer  {
+  display: block;
+  position: relative;
+  border-bottom: 2px solid #bdb6ad;
+}
+
+footer span.ribbon-inner  {
+  position: relative;
+  display: block;
+  background-color: #cd596b;
+  border: 2px solid #7c334f;
+  padding: 1px;
+  z-index: 1;
+}
+
+footer span.ribbon-inner p {
+  background-color: #7c334f;
+  color: #e69b95;
+  font: bold italic 12px/1 'Roboto Slab', 'Century Gothic', 'Apple Gothic', serif;
+  padding-bottom: 4px;
+}
+
+footer a  {
+  text-decoration: none;
+  position: relative;
+  bottom: -1px;
+  color: #7eb0d2;
+  font-family: 'Open Sans', 'Century Gothic', 'Apple Gothic', sans-serif;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.2em;
+}
+
+footer span.left-tail, footer span.right-tail {
+    display: block;
+    width: 18px; height: 29px;
+    background: transparent url(./images/small-ribbon-tail-sprite.png) 0 0 no-repeat;
+    position: absolute;
+    bottom: 5px;
+    z-index: 0;
+}
+
+footer span.left-tail   {
+  background-position: 0 0;
+  left: -11px;
+}
+
+footer span.right-tail  {
+  background-position: -18px 0;
+  right: -11px;
+}
+
+footer > img  {
+  display: block;
+  padding-top: 20px;
+  width: 10%; height: 10%;
 }
